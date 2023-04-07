@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body style="background-color: #33CCFF;">
+
+    <h1 style="color: blue">색상 이름으로 표현된 파란색 </h1>
+    <h1 style="color: green">색상 이름으로 표현된 녹색 </h1>
+    <h1 style="color: silver">색상 이름으로 표현된 은색 </h1>
+    <h1 style="color: teal">색상 이름으로 표현된 청록색 </h1>
+    <h1 style="color: red">색상 이름으로 표현된 빨간색 </h1>
+
+    <h1 style="background-color:white; color: maroon;font-size: 150%;text-align: center;">
+        ccs랑 style은 신이야
+    </h1>
+    <h1 style="background-color: white;">
+        style 속성을 이용한 배경색 변경
+    </h1>
+    <h1 style="color:maroon">
+        style 속성을 이용한 글자색 변경
+    </h1>
+    <h1 style="font-size: 250%;">
+        style 속성을 이용한 글자 크기 변경
+    </h1>
+    <h1 style="text-align: center;">
+        style 속성을 이용한 문단 정렬 변경
+    </h1>
+
+    <h1>a태그로 링크 걸기</h1>
+    <a href="https://github.com/GalaxyMaker/FirstGalaxy">
+        <h2>이 링크를 클릭해 보세요!</h2>
+    </a>
+
+    <h1>a태그의 target 속성값</h1>
+    <h2><a href="/html/intro" target="_blank">blank</a></h2>
+    <h2><a href="/html/intro" target="_self">self</a></h2>
+    <h2><a href="/html/intro" target="_parent">parent</a></h2>
+    <h2><a href="/html/intro" target="_top">top</a></h2>
+    <h2><a href="/html/intro" target="myframe">myframe</a></h2>
+    <iframe name="myframe" style="width: 50%;height: 330px;"></iframe>
+
+    <h1>페이지 책갈피</h1>
+    <a href="#bookmark"><p>제목 15로 갑시다!!!</p></a>
+
+    <h2>제목 1</h2>
+    <p>첫 번째 단락</p>
+    <h2>제목 2</h2>
+    <p>두 번째 단락</p>
+    <h2>제목 3</h2>
+    <p>세 번째 단락</p>
+    <h2>제목 4</h2>
+    <p>네 번째 단락</p>
+    <h2>제목 5</h2>
+    <p>다섯 번째 단락</p>
+    <h2>제목 6</h2>
+    <p>여섯 번째 단락</p>
+    <h2>제목 7</h2>
+    <p>일곱 번째 단락</p>
+    <h2>제목 8</h2>
+    <p>여덟 번째 단락</p>
+    <h2>제목 9</h2>
+    <p>아홉 번째 단락</p>
+    <h2>제목 10</h2>
+    <p>열 번째 단락</p>
+    <h2>제목 11</h2>
+    <p>열한 번째 단락</p>
+    <h2>제목 12</h2>
+    <p>열두 번째 단락</p>
+    <h2>제목 13</h2>
+    <p>열셋 번째 단락</p>
+    <h2>제목 14</h2>
+    <p>열네 번째 단락</p>
+    <h2><a name="bookmark"></a>제목 15</h2>
+    <p>열다섯 번째 단락</p>
+    <h2>제목 16</h2>
+    <p>열여섯 번째 단락</p>
+    <h2>제목 17</h2>
+    <p>열일곱 번째 단락</p>
+
+    <h1>img태그의 alt 속성</h1>
+    <img src="/examples/images/img_flag.png" alt="이미지가 없나봐요..">
+
+    <h1>이미지의 크기 설정</h1>
+    <img src="/examples/images/img_flag.png" alt="html size" width="320" height="214">
+    <img src="/examples/images/img_flag.png" alt="style size" style="width: 320px; height: 214px;">
+
+    
+    <div style="background-color: lightgray; color: green; text-align: center;">
+        <h1>div요소를 이용한 스타일 적용</h1>
+        <p>이렇게 div요소를 여러 요소들을 묶은 다음에 style 속성과 클래스 등을 이용하여
+            한 번에 스타일을 적용할 수 있습니다.
+        </p>
+    </div>
+
+    <h1>span요소를 이용한 스타일 적용</h1>
+    <p>이렇게
+        <span style="border: 3px solid red;">span요소를 텍스트의 일부분</span>
+        만을 따로 묶은 후에 스타일을 적용할 수 있습니다.
+    </p>
+
+    <h1>자바스크립트를 이용한 문장 삽입</h1>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "자바스크립트? 그게 뭐죠?";
+    </script>
+
+    <h1>텍스트 입력</h1>
+    <form action="/examples/media/request.php">
+        검색할 내용을 입력하세요 :
+        <input type="text" name="search">
+    </form>
+
+    <form action="/examples/media/action_target.php" method="get">
+        이름 : <input type="text" name="st_name"><br>
+        학번 : <input type="text" name="st_id"><br>
+        학과 : <input type="text" name="department"><br>
+        <input type="submit">
+    </form>
+
+    <h1>버튼 입력</h1>
+    <button type="button" onclick="alert('버튼을 클릭하셨군요!')">버튼을 눌러주세요.</button>
+
+
+    <div style="background-color: lightgray;color: green;text-align: center;">
+        <h1>div요소를 이용한 스타일 적용</h1>
+        <p>이렇게 div요소를 여러 요소들을 묶은 다음에 style 속성과 클래스 등을 이용하여
+            한번에 스타일을 적용할 수 있습니다.
+        </p>
+    </div>
+
+    <div class="classtest">
+        <h1>div요소를 이용한 스타일 적용</h1>
+        <p>이렇게 div요소를 여러 요소들을 묶은 다음에 style 속성과 클래스 등을 이용하여
+            한번에 스타일을 적용할 수 있습니다.
+        </p>
+    </div>
+
+</body>
+</html>
