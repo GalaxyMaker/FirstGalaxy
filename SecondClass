@@ -122,6 +122,20 @@
     <h1>버튼 입력</h1>
     <button type="button" onclick="alert('버튼을 클릭하셨군요!')">버튼을 눌러주세요.</button>
 
+    <h1>체크박스</h1>
+    <p>다음 중 우리가 배운 언어는?</p>
+    <form>
+        <input type="checkbox" name="lecture" value="html" checked> HTML <br>
+        <input type="checkbox" name="lecture" value="css"> CSS <br>
+        <input type="checkbox" name="lecture" value="java"> JAVA <br>
+        <input type="checkbox" name="lecture" value="cpp" disabled> C++
+    </form>
+
+    <h1>파일 선택 박스</h1>
+    <p>여러분이 가장 행복했던 날의 사진을 선택해 주세요.</p>
+    <form>
+        <input type="file" name="upload_file" accept="image/*">
+    </form>
 
     <div style="background-color: lightgray;color: green;text-align: center;">
         <h1>div요소를 이용한 스타일 적용</h1>
